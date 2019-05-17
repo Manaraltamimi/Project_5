@@ -1,1 +1,5 @@
-# Project_5
+- Truffle version is v5.0.17 (core: 5.0.16)
+- OpenZeppelin is @2.2.0
+- My ERC-721 Token Name : American Dollar
+- My ERC-721 Token Symbol USD
+-M  “Token Address” on the Rinkeby Network: 0x99B3c0521Bc7bf335563F65f91784253b566849a

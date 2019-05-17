@@ -44,7 +44,7 @@ const App = {
     const { lookupTokenIdToStarInfo }  = this.meta.methods;
     const id = document.getElementById("starId").value;
     await lookUptokenIdToStarInfo(id).call().then((name)=>{
-      App.setStatus("ID is "+ id + "Name is " + name + "."
+      App.setStatus("ID is "+ id + "Name is " + name + ".");
 
     });
   }

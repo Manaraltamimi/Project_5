@@ -30,7 +30,7 @@ it('lets user1 get the funds after the sale', async() => {
     let instance = await StarNotary.deployed();
     let user1 = accounts[1];
     let user2 = accounts[2];
-    let starId = 3;
+    let starId = 10;
     let starPrice = web3.utils.toWei(".01", "ether");
     let balance = web3.utils.toWei(".05", "ether");
     await instance.createStar('awesome star', starId, {from: user1});
@@ -133,7 +133,7 @@ it('lookUptokenIdToStarInfo test', async() => {
     // 2. Call your method lookUptokenIdToStarInfo
     // 3. Verify if you Star name is the same
     let instance = await StarNotary.deployed();
-    let tokenId = 3;
+    let tokenId = 11;
     
     try{
         await instance.createStar('test', tokenId, {from: accounts[1]});
